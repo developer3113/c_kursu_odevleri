@@ -1,0 +1,18 @@
+Aşağıdaki C kodu
+
+a) sentaks hatası içeriyor.
+b) tanımsız davranış içeriyor.
+c) ekrana şunu yazar: 
+
+
+/*    kod     */
+
+#include <stdio.h>
+
+int g = 34;
+
+int main()
+{
+	unsigned int n = sizeof g++ - sizeof ++g + g++;
+	printf("%u\n", n);
+}
