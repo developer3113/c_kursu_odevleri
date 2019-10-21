@@ -1,0 +1,5 @@
+Sayma sayılarında 10’luk sayı sisteminde yalnızca 4 tane factorion sayı var. İyi ama factorion sayı ne demek? Basamaklarının faktöriyelleri toplamı kendisine eşit olan sayıya “factorion” deniyor. Örneğin abc tamsayısı eğer bir factorion ise
+
+abc = a! + b! + c!
+
+eşitliğinin doğru olması gerekiyor. İlk iki factorion sayının 1 ve 2 olduğu açık. Diğer iki factorion sayıyı da bir C programı yazarak siz bulun. Bir ipucu olarak her iki sayının da 100.000‘den küçük olduğunu söyleyelim.
