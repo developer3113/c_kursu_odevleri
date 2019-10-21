@@ -1,0 +1,18 @@
+Aşağıdaki C programı çalıştırıldığında bu programın çıktısı ne olur?
+#include <stdio.h>
+
+int main()
+{
+	int x = 1;
+
+	while (x-- >= 1)
+		while (x-- >= 0);
+			printf("%d", x);
+
+	return 0;
+}
+
+Sorunun yanıtı şu seçeneklerden biri de olabilir:
+Sentaks hatası (derleme zamanı hatası)
+Tanımsız davranış.
+Derleyiciye göre değişir.
